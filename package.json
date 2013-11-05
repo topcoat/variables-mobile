@@ -1,0 +1,24 @@
+{
+  "name": "topcoat-variables-mobile",
+  "version": "0.0.0",
+  "description": "Variables for mobile theme.",
+  "main": "index.html",
+  "style": "src/variables-mobile.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/variables-mobile.git"
+  },
+  "keywords": [
+    "variables",
+    "mobile",
+    "topcoat"
+  ],
+  "author": "@dam Kristofer Joseph",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/topcoat/variables-mobile/issues"
+  }
+}
