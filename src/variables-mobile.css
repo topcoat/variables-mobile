@@ -19,7 +19,7 @@
 :root {
   var-font-size: 16px;
   var-font-size--large: 1.3rem;
-  var-padding--overlay: 1rem;
+  var-font-size--header: var(font-size--large);
   var-font-weight: 400;
   var-font-weight--large: var(font-weight);
   var-letter-spacing: 1px;
@@ -75,6 +75,8 @@
   var-margin-left--switch__toggle--checked: 2.7rem;
   var-padding--select: 0.7rem 1.4rem 0.7rem 1rem;
   var-font-size--header: 1.3rem;
+  var-padding--overlay: 1rem;
+  var-padding--overlay__title: 0 0 1.2rem;
   var-max-width--overlay: 80%;
 }
 
