@@ -17,7 +17,8 @@
 */
 
 :root {
-  var-font-size: 16px;
+  var-base-font-size: 16px;
+  var-font-size: 1rem;
   var-font-size--large: 1.3rem;
   var-font-size--header: var(font-size--large);
   var-font-weight: 400;
