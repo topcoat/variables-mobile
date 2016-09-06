@@ -1,83 +1,64 @@
-/**
-*
-* Copyright 2012 Adobe Systems Inc.;
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-
 :root {
-  var-base-font-size: 16px;
-  var-font-size: 1rem;
-  var-font-size--large: 1.3rem;
-  var-font-size--header: var(font-size--large);
-  var-font-weight: 400;
-  var-font-weight--large: var(font-weight);
-  var-letter-spacing: 1px;
-  var-border-radius: 6px;
-  var-border-radius--large: 30px;
-  var-border-radius--huge: 40px;
-  var-padding: 0 1.25rem;
-  var-padding--large: var(padding);
-  var-height: 3rem;
-  var-height--large: 4.375rem;
-  var-line-height: var(height);
-  var-line-height--large: var(height--large);
-  var-vertical-align: top;
-  var-padding--container: 2rem;
-  var-size--icon: 1.62rem;
-  var-size--icon--large: 2.5rem;
-  var-padding--icon-button: 0 0.75rem;
-  var-icon-top: -1px;
-  var-icon-top--large: -2px;
-  var-padding--navigation-bar: 1rem;
-  var-padding--list-header: 4px 20px;
-  var-padding--list-item: 1.25rem;
-  var-font-size--list-header: .9em;
-  var-font-weight--list-header: var(font-weight);
-  var-search-icon: url("../img/search.svg");
-  var-background-image--search-input: var(search-icon);
-  var-font-size--textarea: 2.5rem;
-  var-font-size--textarea--large: 3rem;
-  var-size--checkbox: 2rem;
-  var-border-radius--checkbox: 3px;
-  var-top--checkmark: 1px;
-  var-left--checkmark: 2px;
-  var-width--checkmark__tail: 28px;
-  var-height--checkmark__foot: 11px;
-  var-border-radius--checkmark: 2px;
-  var-border-width--checkmark: 7px;
-  var-transform--checkmark: rotate(-50deg);
-  var-size--radio-button: 1.875rem;
-  var-size--radio-button--checked: 0.875rem;
-  var-position--radio-button--checked: 7px;
-  var-width--range__thumb : 2rem;
-  var-height--range__track: 1rem;
-  var-padding--search-input: 0 0 0 2rem;
-  var-padding--search-input--large: 0 0 0 2.9rem;
-  var-width--switch: 6rem;
-  var-width--switch__label: 5rem;
-  var-right--switch__label--left: 1rem;
-  var-padding-left--switch__label--left: 1.5rem;
-  var-width--switch__toggle: 2rem;
-  var-margin-left--switch__toggle: -1.3rem;
-  var-left--switch__label--right: 1rem;
-  var-padding-left--switch__label--right: 2rem;
-  var-margin-left--switch__toggle--checked: 2.7rem;
-  var-padding--select: 0.7rem 1.4rem 0.7rem 1rem;
-  var-font-size--header: 1.3rem;
-  var-padding--overlay: 1rem;
-  var-padding--overlay__title: 0 0 1.2rem;
-  var-max-width--overlay: 80%;
+  --base-font-size: 16px;
+  --font-size: 1rem;
+  --font-size--large: 1.3rem;
+  --font-size--header: var(--font-size--large);
+  --font-weight: 400;
+  --font-weight--large: var(--font-weight);
+  --letter-spacing: 1px;
+  --border-radius: 6px;
+  --border-radius--large: 30px;
+  --border-radius--huge: 40px;
+  --padding: 0 1.25rem;
+  --padding--large: var(--padding);
+  --height: 3rem;
+  --height--large: 4.375rem;
+  --line-height: var(--height);
+  --line-height--large: var(--height--large);
+  --vertical-align: top;
+  --padding--container: 2rem;
+  --size--icon: 1.62rem;
+  --size--icon--large: 2.5rem;
+  --padding--icon-button: 0 0.75rem;
+  --icon-top: -1px;
+  --icon-top--large: -2px;
+  --padding--navigation-bar: 1rem;
+  --padding--list-header: 4px 20px;
+  --padding--list-item: 1.25rem;
+  --font-size--list-header: .9em;
+  --font-weight--list-header: var(--font-weight);
+  --search-icon: url("../img/search.svg");
+  --background-image--search-input: var(--search-icon);
+  --font-size--textarea: 2.5rem;
+  --font-size--textarea--large: 3rem;
+  --size--checkbox: 2rem;
+  --border-radius--checkbox: 3px;
+  --top--checkmark: 1px;
+  --left--checkmark: 2px;
+  --width--checkmark__tail: 28px;
+  --height--checkmark__foot: 11px;
+  --border-radius--checkmark: 2px;
+  --border-width--checkmark: 7px;
+  --transform--checkmark: rotate(-50deg);
+  --size--radio-button: 1.875rem;
+  --size--radio-button--checked: 0.875rem;
+  --position--radio-button--checked: 7px;
+  --width--range__thumb : 2rem;
+  --height--range__track: 1rem;
+  --padding--search-input: 0 0 0 2rem;
+  --padding--search-input--large: 0 0 0 2.9rem;
+  --width--switch: 6rem;
+  --width--switch__label: 5rem;
+  --right--switch__label--left: 1rem;
+  --padding-left--switch__label--left: 1.5rem;
+  --width--switch__toggle: 2rem;
+  --margin-left--switch__toggle: -1.3rem;
+  --left--switch__label--right: 1rem;
+  --padding-left--switch__label--right: 2rem;
+  --margin-left--switch__toggle--checked: 2.7rem;
+  --padding--select: 0.7rem 1.4rem 0.7rem 1rem;
+  --font-size--header: 1.3rem;
+  --padding--overlay: 1rem;
+  --padding--overlay__title: 0 0 1.2rem;
+  --max-width--overlay: 80%;
 }
-
